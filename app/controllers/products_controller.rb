@@ -13,8 +13,14 @@ class ProductsController < ApplicationController
   end
 
   # GET /products/new
-  def new
+  def new 
     @product = Product.new
+  end
+  def who_bought
+    @product = Product.find(params[:id])
+    respond_to do |format|
+      format.atom
+    end
   end
 
   # GET /products/1/edit
