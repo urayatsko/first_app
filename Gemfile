@@ -42,3 +42,5 @@ gem 'rake', '10.4.2'
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
 
 gem 'will_paginate', '~> 3.0.7'
+
+ruby '1.9.3'
