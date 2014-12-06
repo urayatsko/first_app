@@ -85,6 +85,10 @@
             font-family: sans-serif;
             padding: 0.2em 1em;
         }
+        .locate {
+      float: right;
+      margin: -0.25em 0.1em;
+    }
   }
   form {
     label {
@@ -102,11 +106,8 @@
         margin-left: 4em;
     }
     br {
-        display: none}
+        display: none;
     }
-    .locate {
-      float: right;
-      margin: -0.25em 0.1em;
-    }
+    
   }
- 
+ }
