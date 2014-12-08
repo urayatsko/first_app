@@ -19,40 +19,25 @@
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
 
- 
 en:
+
   layouts:
     application:
       title:       "Pragmatic Bookshelf"
       home:        "Home"
       questions:   "Questions"
       news:        "News"
-      contact:     "Contact" 
-      new user:          "New user"
+      contact:     "Contact"
+      new user:    "New User"
       Listing products: "Listing products"
-
 
   store:
     index:
       title_html:  "Your Pragmatic Catalog"
-      add:    "Add to Cart"
+      add_html:    "Add to Cart"
 
   carts:
     cart:
       title:       "Your Cart"
       empty:       "Empty cart"
       checkout:    "Checkout"
-
-  number:
-    currency:
-      format:
-        unit:      "$"
-        precision: 2
-        separator: "."
-        delimiter: ","
-        format:    "%u%n"
-
-  orders:
-  new:
-    form:
-    name: "Name"
