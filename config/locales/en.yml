@@ -19,7 +19,7 @@
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
 
-
+ 
 en:
   layouts:
     application:
@@ -27,7 +27,10 @@ en:
       home:        "Home"
       questions:   "Questions"
       news:        "News"
-      contact:     "Contact"
+      contact:     "Contact" 
+      new user:          "New user"
+      Listing products: "Listing products"
+
 
   store:
     index:
@@ -49,3 +52,7 @@ en:
         delimiter: ","
         format:    "%u%n"
 
+  orders:
+  new:
+    form:
+    name: "Name"

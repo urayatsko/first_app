@@ -16,8 +16,10 @@ es:
             questions: "Preguntas"
             news: "Noticias"
             contact: "Contacto"
+            new user:          "Nuevo usuario"
+            Listing products: "Listado de Productos"
 
-    store:
+    store: 
         index:
             title_html: "Su Cat&aacute;logo de Pragmatic" 
             add:        "Anadir al Carrito"
@@ -27,3 +29,8 @@ es:
             title:      "Carrito de la Compra"
             empty:      "Vaciar Carrito"
             checkout:   "Comprar"
+
+    orders:
+    new:
+        form:
+            name: "Nombre"
