@@ -61,3 +61,5 @@ es:
         name:      "Nombre"
         email:     "E-mail"
         pay_type:  "Forma de pago"
+
+  thanks:          "Gracias por su pedido"

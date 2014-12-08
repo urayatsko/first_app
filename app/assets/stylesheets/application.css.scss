@@ -34,10 +34,15 @@
 }
 #columns {
   background: #141;
+   .locate {
+      float: right;
+      margin: -0.25em 0.1em;
+    }
   #main {
     margin-left: 17em;
     padding: 1em;
     background: white;
+
   }
 
   #side {
@@ -85,10 +90,7 @@
             font-family: sans-serif;
             padding: 0.2em 1em;
         }
-        .locate {
-      float: right;
-      margin: -0.25em 0.1em;
-    }
+       
   }
   form {
     label {
