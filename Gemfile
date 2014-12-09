@@ -4,10 +4,7 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.7'
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
-group :production do
-  gem 'mysql'
-end
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
@@ -30,6 +27,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 
 gem 'rake', '10.4.2'
+gem "rvm", "~> 1.9.2"
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
@@ -47,9 +45,12 @@ gem 'rake', '10.4.2'
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
 
 gem 'will_paginate', '~> 3.0.7'
-group :production do
-  gem 'pg', '0.15.1'
-  gem 'rails_12factor', '0.0.2'
+group :development, :test do
+  gem 'sqlite3'
 end
-
+group :production do
+  gem 'pg'
+  gem 'mysql'
+end
+gem 'rails_12factor', group: :production
 ruby '1.9.3'
