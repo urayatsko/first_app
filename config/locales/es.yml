@@ -9,6 +9,7 @@ es:
       contact:     "Contacto"
       new user:    "Nuevo Usuario"
       Listing products: "Listado de Artículos"
+      Login: "Iniciar Sesión"
 
   store:
     index:

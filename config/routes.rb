@@ -1,4 +1,6 @@
 Depot::Application.routes.draw do
+  get 'form/input'
+
   get 'admin' => 'admin#index'
  
   controller :sessions do
@@ -9,7 +11,10 @@ Depot::Application.routes.draw do
 
   scope '(:locale)' do
     resources :users
-    resources :orders
+    resources :orders do
+      resources :line_items
+    end
+    
     resources :line_items
     resources :carts
     resources :products do

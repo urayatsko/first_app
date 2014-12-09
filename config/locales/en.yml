@@ -30,6 +30,7 @@ en:
       contact:     "Contact"
       new user:    "New User"
       Listing products: "Listing products"
+      Login: "Login"
 
   store:
     index:
